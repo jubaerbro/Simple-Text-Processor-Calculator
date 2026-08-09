@@ -7,3 +7,7 @@ def shout(text):
 def reverse_string(text):
     """Reverses the characters in a string."""
     return text[::-1]
+
+def count_words(text):
+    """Counts the number of words in a string."""
+    return len(text.split())

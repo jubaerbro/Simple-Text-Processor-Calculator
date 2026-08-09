@@ -3,7 +3,7 @@ import math_tools
 import text_tools
 
 def main():
-    print("🚀 Welcome to Our Python Group Lab!")
+    print("Welcome to Our Python Group Lab!")
     print("-" * 35)
     
     # Testing Person B's math module
@@ -15,9 +15,11 @@ def main():
     message = "github collaboration is awesome"
     shout_message = text_tools.shout(message)
     print(f"Text Test: {shout_message}")
+    word_count = text_tools.count_words(message)
+    print(f"Word Count Test: '{message}' has {word_count} words")
     
     print("-" * 35)
-    print("🎉 Success! All modules are communicating perfectly.")
+    print("Success! All modules are communicating perfectly.")
 
 if __name__ == "__main__":
     main()
